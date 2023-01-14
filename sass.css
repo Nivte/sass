@@ -9,13 +9,13 @@ footer {
   flex-direction: column;
   position: relative;
   background-color: rgb(44, 149, 44);
-  height: 80vh;
+  height: 50vh;
   width: 99vw;
   justify-content: space-around;
   border: solid black;
 }
 
-.ballfooter {
+.pinkball {
   height: 5vh;
   width: 5vh;
   border-radius: 50%;
@@ -25,7 +25,7 @@ footer {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
-  margin-left: 65vw;
+  margin-left: 70vw;
   z-index: 999;
   display: inline-block;
 }
@@ -43,7 +43,7 @@ footer {
     transform: rotate(-3000deg);
   }
 }
-.ball2footer {
+.whiteball {
   height: 5vh;
   width: 5vh;
   border-radius: 50%;
@@ -53,7 +53,7 @@ footer {
           animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
-  margin-left: 40vw;
+  margin-left: 30vw;
   z-index: 999;
   display: inline-block;
 }
@@ -85,22 +85,21 @@ footer {
 }
 
 .arealeftfooter {
-  display: inline-block;
   border: solid white;
-  height: 40vh;
-  width: 12vw;
+  height: 23vh;
+  width: 10vw;
   position: absolute;
-  top: 18vh;
+  top: 13vh;
+  z-index: 2;
   z-index: 2;
 }
 
 .arearightfooter {
-  display: inline-block;
   border: solid white;
-  height: 40vh;
-  width: 12vw;
+  height: 23vh;
+  width: 10vw;
   position: absolute;
-  top: 18vh;
+  top: 13vh;
   right: 0vw;
   z-index: 2;
   z-index: 2;
@@ -118,12 +117,12 @@ footer {
 .middlecirclefooter {
   position: absolute;
   display: inline-block;
-  top: 23vh;
-  left: 41%;
+  top: 15vh;
+  left: 42vw;
   border: solid white;
   border-radius: 50%;
   height: 36%;
-  width: 18%;
+  width: 15%;
 }
 
 .contact {
@@ -162,12 +161,10 @@ button {
   height: 7vh;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-transform: capitalize;
-  transition: 1s;
   overflow: auto;
 }
 
 button:hover {
-  font-size: 15px;
   font-weight: 600;
 }
 
