@@ -1,0 +1,89 @@
+@import "ballanim";
+$siteColor: rgb(24, 137, 24);
+$border: solid;
+$center: center;
+$textTransform: capitalize;
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: $siteColor;
+  height: 20vh;
+  width: 99vw;
+  position: relative;
+}
+button {
+  background-color: white;
+  color: $siteColor;
+  border-radius: 30%;
+  height: 7vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  text-transform: $textTransform;
+  transition: 1s;
+  overflow: auto;
+}
+button:hover {
+  font-size: 15px;
+  font-weight: 600;
+}
+.home {
+  position: absolute;
+  top: 3vh;
+  background-color: black;
+}
+.about {
+  position: absolute;
+  top: 3vh; left: 6vw;
+  background-color: black;
+}
+
+.logo {
+  position: absolute;
+  top: 5vh;
+  right: 1vw;
+  height: 7vh;
+  width: 25vw;
+}
+h1 {
+  color: $siteColor;
+  text-align: $center;
+  text-transform: $textTransform;
+}
+.up {
+  position: fixed;
+  top: 88vh;
+  right: 2vw;
+  z-index: 999999999;
+
+}
+p {
+  border: $border $siteColor;
+  text-align: $center;
+}
+
+.realaside {
+  margin-right: 50px;
+  border: solid yellow;
+}
+
+.containerflex {
+  display: flex;
+  height: 55vh;
+
+  & p {
+    height: 90.8%;
+    width: 75vw;
+  }
+
+  & aside {
+    height: 50vh;
+    width: 23vw;
+    border: $border $siteColor;
+    margin-top: 2.8vh;
+    background-color: lightgray;
+  }
+}

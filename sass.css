@@ -1,0 +1,232 @@
+footer {
+  height: 20vh;
+  width: 99vw;
+  position: relative;
+}
+
+.containerfooter {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: rgb(44, 149, 44);
+  height: 80vh;
+  width: 99vw;
+  justify-content: space-around;
+  border: solid black;
+}
+
+.ballfooter {
+  height: 5vh;
+  width: 5vh;
+  border-radius: 50%;
+  -webkit-animation: 4s pass;
+          animation: 4s pass;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  margin-left: 65vw;
+  z-index: 999;
+  display: inline-block;
+}
+
+@-webkit-keyframes pass {
+  100% {
+    margin-left: 5vw;
+    transform: rotate(-3000deg);
+  }
+}
+
+@keyframes pass {
+  100% {
+    margin-left: 5vw;
+    transform: rotate(-3000deg);
+  }
+}
+.ball2footer {
+  height: 5vh;
+  width: 5vh;
+  border-radius: 50%;
+  -webkit-animation: 4s pass2;
+          animation: 4s pass2;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  margin-left: 40vw;
+  z-index: 999;
+  display: inline-block;
+}
+
+@-webkit-keyframes pass2 {
+  100% {
+    margin-left: 90vw;
+    transform: rotate(4000deg);
+  }
+}
+
+@keyframes pass2 {
+  100% {
+    margin-left: 90vw;
+    transform: rotate(4000deg);
+  }
+}
+.nikefooter {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.adidasfooter {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+}
+
+.arealeftfooter {
+  display: inline-block;
+  border: solid white;
+  height: 40vh;
+  width: 12vw;
+  position: absolute;
+  top: 18vh;
+  z-index: 2;
+}
+
+.arearightfooter {
+  display: inline-block;
+  border: solid white;
+  height: 40vh;
+  width: 12vw;
+  position: absolute;
+  top: 18vh;
+  right: 0vw;
+  z-index: 2;
+  z-index: 2;
+}
+
+.middlelinefooter {
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  height: 100%;
+  width: 0.5vh;
+  background-color: white;
+}
+
+.middlecirclefooter {
+  position: absolute;
+  display: inline-block;
+  top: 23vh;
+  left: 41%;
+  border: solid white;
+  border-radius: 50%;
+  height: 36%;
+  width: 18%;
+}
+
+.contact {
+  position: absolute;
+  bottom: 2vh;
+  left: 10vw;
+}
+
+.info {
+  position: absolute;
+  bottom: 2vh;
+  left: 1vw;
+}
+
+.rights {
+  position: absolute;
+  bottom: 3.5vh;
+  left: 18vw;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(24, 137, 24);
+  height: 20vh;
+  width: 99vw;
+  position: relative;
+}
+
+button {
+  background-color: white;
+  color: rgb(24, 137, 24);
+  border-radius: 30%;
+  height: 7vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  transition: 1s;
+  overflow: auto;
+}
+
+button:hover {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.home {
+  position: absolute;
+  top: 3vh;
+  background-color: black;
+}
+
+.about {
+  position: absolute;
+  top: 3vh;
+  left: 6vw;
+  background-color: black;
+}
+
+.logo {
+  position: absolute;
+  top: 5vh;
+  right: 1vw;
+  height: 7vh;
+  width: 25vw;
+}
+
+h1 {
+  color: rgb(24, 137, 24);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.up {
+  position: fixed;
+  top: 88vh;
+  right: 2vw;
+  z-index: 999999999;
+}
+
+p {
+  border: solid rgb(24, 137, 24);
+  text-align: center;
+}
+
+.realaside {
+  margin-right: 50px;
+  border: solid yellow;
+}
+
+.containerflex {
+  display: flex;
+  height: 55vh;
+}
+.containerflex p {
+  height: 90.8%;
+  width: 75vw;
+}
+.containerflex aside {
+  height: 50vh;
+  width: 23vw;
+  border: solid rgb(24, 137, 24);
+  margin-top: 2.8vh;
+  background-color: lightgray;
+}/*# sourceMappingURL=sass.css.map */
