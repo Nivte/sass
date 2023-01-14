@@ -1,0 +1,16 @@
+$siteColor: rgb(24, 137, 24);
+$border: solid;
+$center: center;
+$textTransform: capitalize;
+
+
+body {
+    text-align: $center;
+    background-color: $siteColor;
+    text-transform: $textTransform;
+}
+form {
+    border: $border;
+    
+
+}
